@@ -1,0 +1,41 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "App de prueba de MERN",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "webpack": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3shu/mern-stack.git"
+  },
+  "author": "Mario Perez (eshumiwa@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3shu/mern-stack/issues"
+  },
+  "homepage": "https://github.com/3shu/mern-stack#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^2.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
